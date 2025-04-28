@@ -22,7 +22,7 @@
 
         }
         section{
-         background: rgba(255, 255, 255, 0.2);
+         background: rgba(200, 162, 25);
             padding: 20px;
             border-radius: 5px;
             text-align: center;
@@ -30,6 +30,13 @@
         p{
             font-size: 100px;
             
+            
+        }
+        button {
+            background-color: rgb(129, 129, 255);
+            color: bisque;
+            border-radius: 20px;
+
         }
 
 
@@ -43,14 +50,17 @@
     <button onclick="menos()">menos</button>
     </section>
     <script>
-    let numero = 0
+        let numero = 0
 
-    function mais(){
-        numero = numero + 1
+        function mais(){
+        numero++
+        mostrarNaTela()
     }
-    function menos(){
-    }  
-    function mostrarNaTela() {
+        function menos(){
+        numero--
+        mostrarNaTela()
+    }
+        function mostrarNaTela() {
         const p = document.querySelector("p")
         p.innerText = numero
     }      
