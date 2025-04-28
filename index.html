@@ -3,9 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aula 1</title>
+    <title>Meu contador</title>
+    <style>
+        * {
+            margin: 0;
+            box-sizing: border-box;
+
+
+        }
+
+        body {
+            border: 1px solid red;
+            min-height: 100vh;
+            background-color: black;
+            color: white;
+            display: grid;
+            place-items: center;
+
+        }
+        section{
+            background: rgba(255, 255, 255, 0.2);
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center;
+        }
+        p{
+            font-size: 100px;
+            
+        }
+
+
+    </style>
 </head>
 <body>
-    
+ <section>
+    <h1>Contador</h1>
+    <p>0</p>
+    <button onclick="mais()">mais</button>
+    <button onclick="menos()">menos</button>
+ </section>
+        <script>
+    let numero = 0
+
+    function mais() {
+        numero = numero + 1
+    }
+    function menos() {
+    }  
+    function mostrarNaTela() {
+        const p = document.querySelector("p")
+        p.innerText = numero
+    }      
+        </script>
 </body>
 </html>
