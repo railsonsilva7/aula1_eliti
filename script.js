@@ -1,17 +1,13 @@
 let numero = 0
-
+function menos() {
+    numero--
+    mostrarNaTela()
+}
 function mais() {
     numero++
-    mostrarNatela()
+    mostrarNaTela()    
 }
-
-function menos(){
-    numero--
-    mostrarNatela()
+function mostrarNaTela() {
+    document.querySelector("p").innerText = numero
 }
- 
-function mostrarNatela() {
-    const p = document.querySelector("p").innerText = numero
-}
-
-mostrarNatela()
+mostrarNaTela()
