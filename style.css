@@ -18,4 +18,13 @@
     padding: 40px;
     border-radius: 50px;
     border: solid 10px;
+    transition-property: font-size;
+    transition-duration: 4s;
+    transition-delay: 2s;
  }
+
+ h1 {
+    font-size: 40px;
+}
+
+ 
