@@ -7,6 +7,10 @@ function mais() {
     numero++
     mostrarNaTela()    
 }
+function zerar() {
+    numero = 0
+    mostrarNaTela()
+}
 function mostrarNaTela() {
     document.querySelector("p").innerText = numero
 }

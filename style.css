@@ -9,12 +9,13 @@
     background: aquamarine;
  }
  p {
-    font-size: 80px;
+    font-size: 130px;
  }
  section {
     text-align: center;
     background-color: black;
     color: white;
-    padding: 20px;
+    padding: 40px;
     border-radius: 50px;
+    border: solid 10px;
  }
