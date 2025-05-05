@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    box-sizing: border-box;   
+}
+body {    
+    min-height: 100vh;
+    background-color: aquamarine;
+    display: grid;
+    place-items: center;   
+}
+section {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 30px; 
+    
+}
+p {
+    font-size: 120px;
+}
