@@ -9,22 +9,18 @@ body {
     color: white;
     display: grid;
     place-items: center;
-
 }
 section{
- background: rgba(200, 162, 25);
-    padding: 20px;
-    border-radius: 50px;
-    text-align: center;
+        background: rgba(200, 162, 25);
+        padding: 20px;
+        border-radius: 50px;
+        text-align: center;
 }
 p{
     font-size: 100px;
-    
-    
 }
 button {
-    background-color: rgb(129, 129, 255);
-    color: bisque;
-    border-radius: 20px;
-
+        background-color: rgb(129, 129, 255);
+        color: bisque;
+        border-radius: 20px;
 }
