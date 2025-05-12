@@ -1,20 +1,24 @@
 let numero = 0
 
-function menos(){
+function menos() {
     numero--
-    Mostrar_na_tela()    
+    mostrar()
 }
 
-function mais(){
+function mais() {
     numero++
-    Mostrar_na_tela()
+    mostrar()
+
 }
 
-function zerar(){
+function zerar() {
     numero = 0
-    Mostrar_na_tela()
+    mostrar()
 }
 
-function Mostrar_na_tela(){
-    document.querySelector("p").innerText = numero
+function mostrar() {
+     document.querySelector("p").innerText = numero
+
 }
+
+mostrar()
