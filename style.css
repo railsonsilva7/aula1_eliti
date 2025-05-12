@@ -2,25 +2,30 @@
     margin: 0;
     box-sizing: border-box;
 }
-body {
+body{
+    background: aquamarine;
     min-height: 100vh;
     display: grid;
     place-items: center;
-    background: aquamarine;
- }
+}
+section{
+    background: black;
+    color: white;
+    padding: 30px;
+    border: solid 10px;
+    border-radius: 30px;
+    place-items: center;
+}
 p{
     font-size: 130px;
-}
-section {
-    text-align: center;
-    background-color: black;
-    color: white;
-    padding: 40px;
-    border-radius: 50px;
-    border: solid 10px;    
 }
 h1{
     font-size: 40px;
 }
 
- 
+button {
+    color: black;
+    background: white;
+    border-radius: 100px;
+    border: solid 5px white;
+}
